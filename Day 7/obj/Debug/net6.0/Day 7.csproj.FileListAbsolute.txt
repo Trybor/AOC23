@@ -1,0 +1,30 @@
+C:\Users\tgebh\Desktop\Coding\AOC\Day 7\bin\Debug\net6.0\Day 7.exe
+C:\Users\tgebh\Desktop\Coding\AOC\Day 7\bin\Debug\net6.0\Day 7.deps.json
+C:\Users\tgebh\Desktop\Coding\AOC\Day 7\bin\Debug\net6.0\Day 7.runtimeconfig.json
+C:\Users\tgebh\Desktop\Coding\AOC\Day 7\bin\Debug\net6.0\Day 7.dll
+C:\Users\tgebh\Desktop\Coding\AOC\Day 7\bin\Debug\net6.0\Day 7.pdb
+C:\Users\tgebh\Desktop\Coding\AOC\Day 7\obj\Debug\net6.0\Day 7.csproj.AssemblyReference.cache
+C:\Users\tgebh\Desktop\Coding\AOC\Day 7\obj\Debug\net6.0\Day 7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tgebh\Desktop\Coding\AOC\Day 7\obj\Debug\net6.0\Day 7.AssemblyInfoInputs.cache
+C:\Users\tgebh\Desktop\Coding\AOC\Day 7\obj\Debug\net6.0\Day 7.AssemblyInfo.cs
+C:\Users\tgebh\Desktop\Coding\AOC\Day 7\obj\Debug\net6.0\Day 7.csproj.CoreCompileInputs.cache
+C:\Users\tgebh\Desktop\Coding\AOC\Day 7\obj\Debug\net6.0\Day 7.dll
+C:\Users\tgebh\Desktop\Coding\AOC\Day 7\obj\Debug\net6.0\refint\Day 7.dll
+C:\Users\tgebh\Desktop\Coding\AOC\Day 7\obj\Debug\net6.0\Day 7.pdb
+C:\Users\tgebh\Desktop\Coding\AOC\Day 7\obj\Debug\net6.0\Day 7.genruntimeconfig.cache
+C:\Users\tgebh\Desktop\Coding\AOC\Day 7\obj\Debug\net6.0\ref\Day 7.dll
+C:\Users\one\OneDrive - Fachhochschule Salzburg GmbH\MMT 01\Einführung Programmierung\Advent of Code 2023\Day 7\bin\Debug\net6.0\Day 7.exe
+C:\Users\one\OneDrive - Fachhochschule Salzburg GmbH\MMT 01\Einführung Programmierung\Advent of Code 2023\Day 7\bin\Debug\net6.0\Day 7.deps.json
+C:\Users\one\OneDrive - Fachhochschule Salzburg GmbH\MMT 01\Einführung Programmierung\Advent of Code 2023\Day 7\bin\Debug\net6.0\Day 7.runtimeconfig.json
+C:\Users\one\OneDrive - Fachhochschule Salzburg GmbH\MMT 01\Einführung Programmierung\Advent of Code 2023\Day 7\bin\Debug\net6.0\Day 7.dll
+C:\Users\one\OneDrive - Fachhochschule Salzburg GmbH\MMT 01\Einführung Programmierung\Advent of Code 2023\Day 7\bin\Debug\net6.0\Day 7.pdb
+C:\Users\one\OneDrive - Fachhochschule Salzburg GmbH\MMT 01\Einführung Programmierung\Advent of Code 2023\Day 7\obj\Debug\net6.0\Day 7.csproj.AssemblyReference.cache
+C:\Users\one\OneDrive - Fachhochschule Salzburg GmbH\MMT 01\Einführung Programmierung\Advent of Code 2023\Day 7\obj\Debug\net6.0\Day 7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\one\OneDrive - Fachhochschule Salzburg GmbH\MMT 01\Einführung Programmierung\Advent of Code 2023\Day 7\obj\Debug\net6.0\Day 7.AssemblyInfoInputs.cache
+C:\Users\one\OneDrive - Fachhochschule Salzburg GmbH\MMT 01\Einführung Programmierung\Advent of Code 2023\Day 7\obj\Debug\net6.0\Day 7.AssemblyInfo.cs
+C:\Users\one\OneDrive - Fachhochschule Salzburg GmbH\MMT 01\Einführung Programmierung\Advent of Code 2023\Day 7\obj\Debug\net6.0\Day 7.csproj.CoreCompileInputs.cache
+C:\Users\one\OneDrive - Fachhochschule Salzburg GmbH\MMT 01\Einführung Programmierung\Advent of Code 2023\Day 7\obj\Debug\net6.0\Day 7.dll
+C:\Users\one\OneDrive - Fachhochschule Salzburg GmbH\MMT 01\Einführung Programmierung\Advent of Code 2023\Day 7\obj\Debug\net6.0\refint\Day 7.dll
+C:\Users\one\OneDrive - Fachhochschule Salzburg GmbH\MMT 01\Einführung Programmierung\Advent of Code 2023\Day 7\obj\Debug\net6.0\Day 7.pdb
+C:\Users\one\OneDrive - Fachhochschule Salzburg GmbH\MMT 01\Einführung Programmierung\Advent of Code 2023\Day 7\obj\Debug\net6.0\Day 7.genruntimeconfig.cache
+C:\Users\one\OneDrive - Fachhochschule Salzburg GmbH\MMT 01\Einführung Programmierung\Advent of Code 2023\Day 7\obj\Debug\net6.0\ref\Day 7.dll

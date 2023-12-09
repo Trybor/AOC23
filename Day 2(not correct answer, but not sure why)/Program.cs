@@ -1,69 +1,56 @@
-﻿using System.Text.RegularExpressions;
+﻿int runningTotal = 0;
+int maxRed = 12;
+int maxGreen = 13;
+int maxBlue = 14;
 
-StreamReader? reader = null;
+string filePath = "input.txt";
 
-try
+using (StreamReader reader = new StreamReader(filePath))
 {
-    reader = new StreamReader("input.txt");
-    string[] colorArray = { "red", "green", "blue" };
-    string[] maxColorArray = { "12", "13", "14" };
+    string line;
 
-    int gameCount = 0;
-
-    while (!reader.EndOfStream)
+    while ((line = reader.ReadLine()) != null)
     {
-        string[] lineData = reader.ReadLine().Split(':');
-        int gameId = Int32.Parse(lineData[0].Split(" ")[1]);
-        string[] draws = lineData[1].Split(';');
-
-        int[] drawnColors = new int[3];
-        bool skipDrawing = false;
-
-        // loop through draws
-        for (int drawIdx = 0; drawIdx < draws.Length; drawIdx++)
+        var gameInfo = line.Split(':');
+        var gameId = int.Parse(gameInfo[0].Split(' ')[1]);
+        var rounds = gameInfo[1].Split(';', StringSplitOptions.TrimEntries);
+        bool isGameValid = true;
+        foreach (var round in rounds)
         {
-            if (skipDrawing) break;
-
-            // separate the colors
-            string[] colors = draws[drawIdx].Split(",");
-
-            foreach (string color in colors)
+            var colorInfos = round.Split(',', StringSplitOptions.TrimEntries);
+            foreach (var color in colorInfos)
             {
-                string[] colorData = color.Split(" ");
-
-                if (colorArray.Contains(colorData[2]))
+                var colorInfo = color.Split(' ');
+                var colorCount = int.Parse(colorInfo[0]);
+                var colorName = colorInfo[1];
+                if (colorName == "red")
                 {
-                    int colorIdx = Array.IndexOf(colorArray, colorData[2]);
-                    //drawnColors[colorIdx] += Int32.Parse(colorData[1]);
-
-                    if (Int32.Parse(colorData[1]) > drawnColors[colorIdx])
+                    if (colorCount > maxRed)
                     {
-                        drawnColors[colorIdx] = Int32.Parse(colorData[1]);
+                        isGameValid = false;
+                    }
+                }
+                else if (colorName == "blue")
+                {
+                    if (colorCount > maxBlue)
+                    {
+                        isGameValid = false;
+                    }
+                }
+                else if (colorName == "green")
+                {
+                    if (colorCount > maxGreen)
+                    {
+                        isGameValid = false;
                     }
                 }
             }
         }
-
-        int red = drawnColors[0];
-        int green = drawnColors[1];
-        int blue = drawnColors[2];
-
-        int pow = 1;
-
-        if (red > 0) pow = red;
-        if (green > 0) pow= green;
-        if (blue > 0) pow *= blue;
-
-        gameCount += pow;
+        if (isGameValid)
+        {
+            runningTotal += gameId;
+        }
     }
+}
 
-    Console.WriteLine(gameCount);
-}
-catch (FileNotFoundException e)
-{
-    Console.WriteLine("No file");
-}
-catch (IOException)
-{
-    Console.WriteLine("Genral IO problem");
-}
+System.Console.WriteLine(runningTotal);

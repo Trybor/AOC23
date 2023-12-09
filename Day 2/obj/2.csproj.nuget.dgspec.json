@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\one\\OneDrive - Fachhochschule Salzburg GmbH\\MMT 01\\Einführung Programmierung\\Advent of Code 2023\\Day 2(not correct answer, but not sure why)\\2.csproj": {}
+    "C:\\Users\\one\\OneDrive - Fachhochschule Salzburg GmbH\\MMT 01\\Einführung Programmierung\\Advent of Code 2023\\Day 2\\2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\one\\OneDrive - Fachhochschule Salzburg GmbH\\MMT 01\\Einführung Programmierung\\Advent of Code 2023\\Day 2(not correct answer, but not sure why)\\2.csproj": {
+    "C:\\Users\\one\\OneDrive - Fachhochschule Salzburg GmbH\\MMT 01\\Einführung Programmierung\\Advent of Code 2023\\Day 2\\2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\one\\OneDrive - Fachhochschule Salzburg GmbH\\MMT 01\\Einführung Programmierung\\Advent of Code 2023\\Day 2(not correct answer, but not sure why)\\2.csproj",
+        "projectUniqueName": "C:\\Users\\one\\OneDrive - Fachhochschule Salzburg GmbH\\MMT 01\\Einführung Programmierung\\Advent of Code 2023\\Day 2\\2.csproj",
         "projectName": "2",
-        "projectPath": "C:\\Users\\one\\OneDrive - Fachhochschule Salzburg GmbH\\MMT 01\\Einführung Programmierung\\Advent of Code 2023\\Day 2(not correct answer, but not sure why)\\2.csproj",
+        "projectPath": "C:\\Users\\one\\OneDrive - Fachhochschule Salzburg GmbH\\MMT 01\\Einführung Programmierung\\Advent of Code 2023\\Day 2\\2.csproj",
         "packagesPath": "C:\\Users\\one\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\one\\OneDrive - Fachhochschule Salzburg GmbH\\MMT 01\\Einführung Programmierung\\Advent of Code 2023\\Day 2(not correct answer, but not sure why)\\obj\\",
+        "outputPath": "C:\\Users\\one\\OneDrive - Fachhochschule Salzburg GmbH\\MMT 01\\Einführung Programmierung\\Advent of Code 2023\\Day 2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\one\\AppData\\Roaming\\NuGet\\NuGet.Config"

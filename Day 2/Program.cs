@@ -90,6 +90,6 @@ using (StreamReader reader = new StreamReader(filePath))
         }
         task2();
     }
-    System.Console.WriteLine(totalTask1);
-    System.Console.WriteLine(totalTask2);
+    System.Console.WriteLine("Task 1: " + totalTask1);
+    System.Console.WriteLine("Task 2: " + totalTask2);
 }
